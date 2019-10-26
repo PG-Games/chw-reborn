@@ -1,0 +1,31 @@
+{
+    "compileOnSave": true,
+
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "target": "es6",
+        "outDir": "/out/Game/vscripts",
+        "rootDir": "/src"
+    },
+    "tstl": {
+        "luaTarget": "JIT",
+        "sourceMapTraceback":  true,
+        "luaLibImport": "require",
+    },
+    "include": [
+        "**/*.ts",
+        "/api/dota-api-functions.d.ts",
+        "/api/dota-api.d.ts",
+        "/api/dota-client.d.ts",
+        "/api/dota-enums.d.ts",
+        "/api/dota-gameevents.d.ts",
+        "/api/dota-modifier-properties.d.ts",
+        "/api/dota-std.d.ts",
+        "/api/json.d.ts",
+        "/api/vector.d.ts"
+      ]
+}
